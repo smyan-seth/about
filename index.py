@@ -18,10 +18,7 @@ with tab[0]:
 with tab[1]:
   st.subheader("👨🏻‍💻")
   st.write(
-      "Check out my [GitHub](https://github.com/smyan-seth)."
-  )
-
-with tab[2]:
+      "Check out my [GitHub](https://github.com/smyan-seth)."<tab[2]:
   st.subheader("📚 Currently Learning")
   st.write("- Python\n- HTML")
 
@@ -41,9 +38,9 @@ with tab[4]:
     st.header("📱 Socials")
     st.write('\n')
     st.html(
-          '''<a href="https://linkedin.com/in/smyanseth" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="smyan-seth" height="30" width="40" />  Linkedin</a>''')
-    st.html(''' <a href="https://instagram.com/smyanseth" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="smyan_seth" height="30" width="40" />  Instagram</a>''')
-    st.html('''<a href="https://twitter.com/smyanseth" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="smyanseth" height="30" width="40" />  Twitter</a>''')
+          '''<a href="https://linkedin.com/in/smyanseth" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="smyan-seth" height="30" width="40" /></a>''')
+    st.html(''' <a href="https://instagram.com/smyanseth" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="smyan_seth" height="30" width="40" /></a>''')
+    st.html('''<a href="https://twitter.com/smyanseth" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="smyanseth" height="30" width="40" /></a>''')
 
 st.divider()
 
