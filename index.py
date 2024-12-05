@@ -41,9 +41,9 @@ with tab[4]:
     st.header("📱 Socials")
     st.write('\n')
     st.html(
-          '''<a href="https://linkedin.com/in/smyanseth" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="smyan-seth" height="30" width="40" /></a>''')
-    st.html(''' <a href="https://instagram.com/smyanseth" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="smyan_seth" height="30" width="40" /></a>''')
-    st.html('''<a href="https://twitter.com/smyanseth" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="smyanseth" height="30" width="40" /></a>''')
+          '''<a href="https://linkedin.com/in/smyanseth" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="smyan-seth" height="30" width="40" /></a>)
+    <a href="https://instagram.com/smyanseth" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="smyan_seth" height="30" width="40" /></a>)
+    <a href="https://twitter.com/smyanseth" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="smyanseth" height="30" width="40" /></a>''')
 
 st.divider()
 
