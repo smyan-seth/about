@@ -18,7 +18,10 @@ with tab[0]:
 with tab[1]:
   st.subheader("👨🏻‍💻")
   st.write(
-      "Check out my [GitHub](https://github.com/smyan-seth)."<tab[2]:
+      "Check out my [GitHub](https://github.com/smyan-seth)."
+  )
+
+with tab[2]:
   st.subheader("📚 Currently Learning")
   st.write("- Python\n- HTML")
 
