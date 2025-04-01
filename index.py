@@ -12,7 +12,7 @@ tab = st.tabs([
 
 with tab[0]:
   st.write(
-      '\n-I’m a zealous teen passionate about coding and learning new things . \n- An aspiring Software Engineer'
+      '\n- I’m a zealous teen passionate about coding and learning new things . \n- An aspiring Software Engineer'
   )
 
 with tab[1]:
