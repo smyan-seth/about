@@ -97,7 +97,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px 0;
+            padding: 20px 20px;
         }
 
         .logo {
@@ -682,7 +682,7 @@
         footer {
             background-color: var(--black);
             color: var(--secondary-color);
-            padding: 40px 0;
+            padding: 40px 20px;
             text-align: center;
         }
 
@@ -696,7 +696,7 @@
         }
 
         .footer-content p {
-            max-width: 600px;
+            max-width: fit-content;
             margin: 0 auto;
             opacity: 0.8;
         }
@@ -705,14 +705,18 @@
             display: flex;
             justify-content: center;
             margin-bottom: 30px;
+            margin: auto;
+            max-width: fit-content;
         }
 
         .footer-links a {
             color: var(--secondary-color);
-            margin: 0 15px;
+            margin: auto;
+            margin-bottom: 15px;
             text-decoration: none;
             opacity: 0.8;
             transition: opacity 0.3s;
+
         }
 
         .footer-links a:hover {
@@ -1153,11 +1157,11 @@
             </div>
 
             <div class="footer-links">
-                <a href="#hero">Home</a>
-                <a href="#about">About</a>
-                <a href="#education">Education</a>
-                <a href="#achievements">Academics</a>
-                <a href="#projects">Projects</a>
+                <a href="#hero">Home</a>|
+                <a href="#about">About</a>|
+                <a href="#education">Education</a>|
+                <a href="#achievements">Academics</a>|
+                <a href="#projects">Projects</a>|
                 <!-- <a href="#experience">Experience</a> -->
                 <a href="#contact">Contact</a>
             </div>
