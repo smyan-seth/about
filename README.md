@@ -1,3 +1,1 @@
-<p>Visit my website(V1) here -> https://smyan-seth.github.io/about/ [HTML]</p>
-<p>or</p> 
-<p></p>website(V2) here-> https://smyanseth.streamlit.app [PYTHON, Streamlit]</p>
+<p>Visit my website here -> smyanseth.com [HTML, CSS, JavaScript]
