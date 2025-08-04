@@ -69,7 +69,6 @@
         html,
         body {
             overflow-x: hidden;
-            padding-top: 80px;
             height: 100%;
             overflow-y: scroll;
         }
@@ -1207,15 +1206,19 @@
             background-color: #0954a5;
         }
     </style>
-    <script>
-        const topBtn = document.getElementById("topBtn");
-        window.onscroll = () => {
-            topBtn.style.display = (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) ? "block" : "none";
-        };
-        function topFunction() {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-    </script>
+    
+<script>
+  const topBtn = document.getElementById("topBtn");
+
+  window.addEventListener("scroll", () => {
+    topBtn.style.display = window.scrollY > 200 ? "block" : "none";
+  });
+
+  function topFunction() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
 
 </body>
 
