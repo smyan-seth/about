@@ -116,8 +116,16 @@ header {
 
 }
 
+.nav-links a.resume-link {
+    color: var(--accent-b)
+}
+
 .nav-links a:hover {
     color: var(--accent-o);
+}
+
+.nav-links a.resume-link:hover {
+    color: var(--accent-g)
 }
 
 .mobile-menu {
@@ -208,6 +216,23 @@ header {
     padding: 100px 0;
     background-color: var(--dark-bg);
     border-radius: 10px;
+}
+
+#about ul{
+    padding-left:10px;
+    list-style: none;
+}
+#about li{
+    padding-left: 28px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#about li::before{
+    content: "- ";
+    position: absolute;
+    left: 0;
+    color: var(--text-color);
 }
 
 .section-title {
